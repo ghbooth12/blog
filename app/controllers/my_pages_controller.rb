@@ -13,6 +13,6 @@ class MyPagesController < Simplemvc::Controller
     # So Simplemvc created Rack::Response.new() in Controller class.
     # get_response in simplemvc.rb will return response properly, even if "render" isn't the last line.
 
-    @name = "Apple Baby"
+    @name = "Apple Pear"
   end
 end
