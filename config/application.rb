@@ -1,6 +1,7 @@
 require 'simplemvc'
 
 $LOAD_PATH << File.join(File.dirname(__FILE__), "..", "app", "controllers")
+$LOAD_PATH << File.join(File.dirname(__FILE__), "..", "app", "models")
 
 # No need to require controllers here.
 # Because we'll use const_missing method to automatically require files with needed classes.
